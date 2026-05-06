@@ -1,0 +1,1 @@
+export default function PaymentCancel(){return <section className='container' style={{padding:'2rem 0'}}><h1>Payment Cancelled</h1><p>Your payment was not completed. You can try again or contact support.</p></section>}
