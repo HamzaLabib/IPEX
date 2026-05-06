@@ -1,0 +1,1 @@
+import { Request, Response } from 'express'; export function getTracking(req:Request,res:Response){res.json({trackingNumber:req.params.trackingNumber,status:'In Transit',currentLocation:'Calgary Hub',estimatedDelivery:'May 10, 2026',timeline:['Shipment Created','Picked Up','In Transit','Out for Delivery','Delivered']});}

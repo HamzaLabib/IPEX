@@ -1,0 +1,2 @@
+import ContactForm from '../components/ContactForm';
+export default function Contact(){return <section className='container' style={{padding:'2rem 0'}}><h1 className='section-title'>Contact Us</h1><div className='grid grid-3'><div style={{gridColumn:'span 2'}}><ContactForm/></div><div className='grid'>{['Sales Inquiries','Customer Support','Partnership Requests'].map(c=><div className='card' style={{padding:'1rem'}} key={c}><h4>{c}</h4></div>)}</div></div></section>}
