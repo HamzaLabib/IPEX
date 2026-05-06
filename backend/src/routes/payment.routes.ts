@@ -1,0 +1,1 @@
+import { Router } from 'express';import { createCheckoutSession } from '../controllers/payment.controller.js'; const r=Router();r.post('/create-checkout-session',createCheckoutSession);export default r;
